@@ -4,10 +4,10 @@ int my_atoi(const char *str);
 
 int main(void) {
 
-  char str1[] = "135";
+  char str1[] = "123";
   char str2[] = "-100";
   char str3[] = "123456";
-  char str4[] = "-12345";
+  char str4[] = "-123456";
   int a, b;
 
   a = my_atoi(str1);
